@@ -1,7 +1,7 @@
 <template>
   <div>
     <navi />
-    <contentWrapper :bg_img="'../img/bg_1.jpg'">
+    <contentWrapper id="home" :bg_img="'../img/bg_1.jpg'">
       <template v-slot:content>
         <div class="lg:pl-20 pb-20">
             <div class="font-sans font-light text-8xl text-white transition duration-500 ease-in-out lg:text-gray-800">Begin</div>
@@ -11,7 +11,7 @@
         </div>
       </template>
     </contentWrapper>
-    <gridWrapper>
+    <gridWrapper id="features">
       <template v-slot:content>
         <grid2>
           <template v-slot:content_1>
@@ -58,7 +58,7 @@
         </grid2>
       </template>
     </gridWrapper>
-    <productWrapper>
+    <productWrapper id="products">
       <template v-slot:products>
         <product :img_url="'../img/product-1.jpg'">
           <template v-slot:name>
@@ -110,8 +110,9 @@
         </product>
       </template>
     </productWrapper>
-    <aboutus />
-    <contactWrapper />
+    <aboutus id="aboutus"/>
+    <contactWrapper id="contactus"/>
+    <footerWrapper />
   </div>
 </template>
 
@@ -124,6 +125,7 @@ import ProductWrapper from "~/components/content/ProductWrapper.vue";
 import Product from "~/components/content/Product.vue";
 import AboutUs from "~/components/content/AboutUs.vue";
 import ContactWrapper from "~/components/contact/Wrapper.vue";
+import FooterWrapper from "~/components/footer/Wrapper.vue";
 
 export default {
   components: {
@@ -134,7 +136,8 @@ export default {
     productWrapper: ProductWrapper,
     product: Product,
     aboutus: AboutUs,
-    contactWrapper: ContactWrapper
+    contactWrapper: ContactWrapper,
+    footerWrapper: FooterWrapper
   }
 }
 </script>

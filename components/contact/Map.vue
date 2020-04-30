@@ -1,7 +1,7 @@
 <template>
     <div class="relative">
         <div style="height:450px">
-            <div id="map-wrap" class="pl-10 h-full w-full">
+            <div id="map-wrap" class="px-4 h-full w-full">
                 <client-only>      
                     <l-map 
                         :zoom="16" 

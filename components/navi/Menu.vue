@@ -2,19 +2,19 @@
     <div>
         <ul class="md:flex">
             <li class="py-2 px-4 text-sm font-sans antialiased font-light">
-                <label class="tracking-widest cursor-pointer">HOME</label>
+                <a class="tracking-widest text-gray-700 hover:text-gray-800 hover:no-underline hover:outline-none" href="#home">HOME</a>
             </li>
             <li class="py-2 px-4 text-sm font-sans antialiased font-light">
-                <label class="tracking-widest cursor-pointer">FEATURES</label>
+                <a class="tracking-widest text-gray-700 hover:text-gray-800 hover:no-underline hover:outline-none" href="#features">FEATURES</a>
             </li>
             <li class="py-2 px-4 text-sm font-sans antialiased font-light">
-                <label class="tracking-widest cursor-pointer">PRODUCTS</label>
+                <a class="tracking-widest text-gray-700 hover:text-gray-800 hover:no-underline hover:outline-none" href="#products">PRODUCTS</a>
             </li>
             <li class="py-2 px-4 text-sm font-sans antialiased font-light">
-                <label class="tracking-widest cursor-pointer">ABOUT US</label>
+                <a class="tracking-widest text-gray-700 hover:text-gray-800 hover:no-underline hover:outline-none" href="#aboutus">ABOUT US</a>
             </li>
             <li class="py-2 px-4 text-sm font-sans antialiased font-light">
-                <label class="tracking-widest cursor-pointer">CONTACT US</label>
+                <a class="tracking-widest text-gray-700 hover:text-gray-800 hover:no-underline hover:outline-none" href="#contactus">CONTACT US</a>
             </li>
         </ul>
     </div>
