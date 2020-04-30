@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.10.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-leaflet": "0.0.21"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"

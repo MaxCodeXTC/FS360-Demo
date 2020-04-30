@@ -110,16 +110,20 @@
         </product>
       </template>
     </productWrapper>
+    <aboutus />
+    <contactWrapper />
   </div>
 </template>
 
 <script>
-import Navi from "~/components/navi/Wrapper.vue"
-import ContentWrapper from "~/components/content/ImageWrapper.vue"
-import GridWrapper from "~/components/content/GridWrapper.vue"
-import Grid2 from "~/components/content/Grid2.vue"
-import ProductWrapper from "~/components/content/ProductWrapper.vue"
-import Product from "~/components/content/Product.vue"
+import Navi from "~/components/navi/Wrapper.vue";
+import ContentWrapper from "~/components/content/ImageWrapper.vue";
+import GridWrapper from "~/components/content/GridWrapper.vue";
+import Grid2 from "~/components/content/Grid2.vue";
+import ProductWrapper from "~/components/content/ProductWrapper.vue";
+import Product from "~/components/content/Product.vue";
+import AboutUs from "~/components/content/AboutUs.vue";
+import ContactWrapper from "~/components/contact/Wrapper.vue";
 
 export default {
   components: {
@@ -128,7 +132,9 @@ export default {
     gridWrapper: GridWrapper,
     grid2: Grid2,
     productWrapper: ProductWrapper,
-    product: Product
+    product: Product,
+    aboutus: AboutUs,
+    contactWrapper: ContactWrapper
   }
 }
 </script>
